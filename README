@@ -1,0 +1,3 @@
+To make run the following command:
+
+ghc -o bf --make bf.hs
