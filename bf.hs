@@ -1,8 +1,12 @@
+-- BrainFuck Interpreter
+-- written by Jeff Aigner
+-- just playing around with haskell
+
 module Main where
 import Debug.Trace
-import Char
-import Maybe
-import IO
+import Data.Char
+import Data.Maybe
+import System.IO
 
 data Tape a = Tape a [a] [a]
             deriving Show
